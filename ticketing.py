@@ -38,7 +38,7 @@ def present_time():
     label_time.after(200, present_time)
     label_time.place(x=5, y=110)
 
-    label_title = Label(receipt_window, font=('arial', 50, 'bold'), justify="center", fg='black',
+    label_title = Label(receipt_window, font=('arial', 49, 'bold'), justify="center", fg='black',
                         text='============== FIMADOST ==============',
                         bd=10, bg="#e1ecf7", relief=RIDGE)
     label_title.place(x=5, y=10)
